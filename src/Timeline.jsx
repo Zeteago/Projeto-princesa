@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import './Timeline.css'
+import aniversarioImg from '/aniversario.jpeg'
+import primeiraFotoImg from '/primeirafoto.jpeg'
+import primeiroBeijaoImg from '/primeirobeijo.jpeg'
 
 function Timeline() {
   const [expanded, setExpanded] = useState(null)
@@ -18,7 +21,7 @@ function Timeline() {
       date: '11 de Janeiro de 2026',
       title: '💕 Nossa primeira foto juntos!!',
       description: 'Um beijo que selou tudo. Naquele momento, soube que você era diferente, era especial.',
-      images: ['/primeirafoto.jpeg']
+      images: [primeiraFotoImg]
     },
     {
       id: 3,
@@ -32,7 +35,7 @@ function Timeline() {
       date: '25 de Janeiro de 2026',
       title: '💋 Nosso primeiro beijo!',
       description: 'Esse momento foi tão mágico que parecia que o tempo parou. Foi o início de uma história de amor que só cresce a cada dia.',
-      images: ['/primeirobeijo.jpeg']
+      images: [primeiroBeijaoImg]
     },
     {
       id: 5,
@@ -46,7 +49,7 @@ function Timeline() {
       date: '27 de Fevereiro de 2026',
       title: '🎂 Seu Aniversário',
       description: 'Celebrar seu aniversário foi tão especial. Ver seu sorriso e compartilhar esse dia com você foi um dos momentos mais felizes da minha vida.',
-      images: ['/aniversario.jpeg']
+      images: [aniversarioImg]
     }
   ]
 
