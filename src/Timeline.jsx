@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './Timeline.css'
-import aniversarioImg from '/aniversario.jpeg'
-import primeiraFotoImg from '/primeirafoto.jpeg'
-import primeiroBeijaoImg from '/primeirobeijo.jpeg'
+import aniversarioImg from './assets/aniversario.jpeg'
+import primeiraFotoImg from './assets/primeirafoto.jpeg'
+import primeiroBeijaoImg from './assets/primeirobeijo.jpeg'
 
 function Timeline() {
   const [expanded, setExpanded] = useState(null)
